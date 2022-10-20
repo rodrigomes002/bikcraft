@@ -147,3 +147,22 @@ p {
   padding: 2.5rem;
   box-sizing: border-box;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+  .subtitulo,
+  p {
+    word-break: break-word;
+  }
+
+  .conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .introducao::before {
+    background-color: #fff;
+    right: 10px;
+  }
+}
